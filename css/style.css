@@ -37,15 +37,23 @@ body
 
 .header-div
 {
-	height: 550px;
+	height: 200px;
+    
     background-image: url(../images/cvph.png);
     margin:0px 0px; 
+    background-size: contain;
     text-align: center;
     padding-bottom: 50px;
     font-size: 16px;
     line-height: 60px;
     font-weight: 800;
 	background-size: cover; 
+    display: inline-block;
+    width: 100%;
+    vertical-align: middle;
+    background-size: 100% 100%;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
 }
 
 .logo-div a
@@ -221,9 +229,9 @@ body
 .pricing-box-price {
     position: relative;
     padding: 20px 0 7px 0;
-    background: #eee;
+    background: rgb(238, 129, 129);
     font-size: 42px;
-    color: #555;
+    color: rgb(27, 26, 26);
     line-height: 54px;
 }
 
@@ -265,7 +273,7 @@ body
 
 .pricing-box-features li {
     padding: 7px 20px;
-    border-bottom: 1px solid #eee;
+    border-bottom: 1px solid rgb(241, 238, 238);
     font-size: 16px;
     line-height: 30px;
     font-weight: 300;
@@ -277,7 +285,7 @@ body
     height: 50px;
     margin: 0 5px;
     padding: 16px 20px 0 20px;
-    background: #61C103;
+    background: #2003c1;
     font-size: 16px;
     font-weight: 300;
     line-height: 16px;
@@ -292,7 +300,7 @@ body
 }
 
 .pricing-box-best .pricing-box-price {
-    background: #65CD00;
+    background: #c52f93;
     color: #fff;
 }
 
