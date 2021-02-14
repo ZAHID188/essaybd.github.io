@@ -37,7 +37,7 @@ body
 
 .header-div
 {
-	height: 200px;
+	height:300px;
     
     background-image: url(../images/cvph.png);
     margin:0px 0px; 
@@ -425,13 +425,13 @@ footer {
 
 /* Bootstrap CSS */
 .navbar-default {
-    background-color: transparent;
+    background-color: rgb(216, 213, 12);
     border-color: transparent;
 }
 
 .navbar-nav li a
 { 
-	color: rgb(15, 15, 15) !important;
+	color: rgb(247, 242, 242) !important;
 }
 
 .navbar-default .navbar-toggle {
@@ -458,7 +458,7 @@ footer {
 	}
 
 	.slide-text {
-	    color: #fff;
+	    color: rgb(252, 244, 244);
     	margin-top: 35px;
 	}
 	.slide-text p {
