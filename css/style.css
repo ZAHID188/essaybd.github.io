@@ -425,7 +425,7 @@ footer {
 
 /* Bootstrap CSS */
 .navbar-default {
-    background-color: rgb(216, 213, 12);
+    background-color: rgb(185, 182, 10);
     border-color: transparent;
   
 }
@@ -448,10 +448,10 @@ footer {
 }
 
 /* Extra Small devices  */
-@media (max-width: 480px) {
+@media (max-width: 880px) {
 	.more-features-div-description, .more-features-div-heading
 	{
-		width: 80%;
+		width: 100%;
 	}
 		.header-div
 	{
@@ -938,9 +938,11 @@ footer {
      */
      width: 46px;
     height: 46px;
+    float:left;
     border-radius: 50%;
     overflow: hidden;
     margin-top: -6px;
+    border-inline-start: 5px dashed blue;
 }
 
 
